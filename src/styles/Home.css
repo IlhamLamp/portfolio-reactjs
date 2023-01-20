@@ -3,6 +3,7 @@
     align-items: center;
     font-family: "Arial", sans-serif;
     color: #3e497a;
+    margin-top: -50px;
   }
   
   .about {
@@ -33,7 +34,7 @@
     margin: 5px;
     color: white;
   }
-  
+
   .sidekick {
     position: relative;
     padding-left: 1em;

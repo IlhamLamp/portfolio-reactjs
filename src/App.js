@@ -14,8 +14,9 @@ function App() {
       <Router basename="/">
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/home" element={<Home />} />
+          {/* apakah bisa? */}
+          <Route path="/portfolio" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<ProjectDisplay />} />
         </Routes>
